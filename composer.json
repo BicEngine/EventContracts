@@ -1,0 +1,32 @@
+{
+    "name": "bic-engine/event-contracts",
+    "license": "MIT",
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bic\\Contracts\\Event\\": "src"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^5.15"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0.x-dev",
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "platform-check": true,
+        "bin-compat": "full",
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "*": "dist"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
